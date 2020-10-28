@@ -1,0 +1,49 @@
+.hideLoader{
+  display: none;
+}
+
+.form-card-payment {
+  width: 50% !important;
+  margin: auto !important;
+  margin-bottom: 10px !important;
+}
+
+@media (max-width: 1245px){
+  .form-card-payment {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 1115px){
+  .form-card-payment {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 900px){
+  .form-card-payment {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 825px){
+  .form-card-payment {
+    width: 85% !important;
+  }
+}
+
+@media (max-width: 767px){
+  .form-card-payment {
+    width: 75% !important;
+  }
+}
+
+@media (max-width: 545px){
+  .form-card-payment {
+    width: 100% !important;
+  }
+}
+
+.rccs__card--unknown > div {
+  background:linear-gradient(45deg,#263238, #78909C) !important
+}

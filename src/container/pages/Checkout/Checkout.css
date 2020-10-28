@@ -1,0 +1,40 @@
+.form-card-checkout {
+  width: 50% !important;
+  margin: auto !important;
+}
+
+@media (max-width: 1245px){
+  .form-card-checkout {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 1115px){
+  .form-card-checkout {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 900px){
+  .form-card-checkout {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 825px){
+  .form-card-checkout {
+    width: 85% !important;
+  }
+}
+
+@media (max-width: 767px){
+  .form-card-checkout {
+    width: 75% !important;
+  }
+}
+
+@media (max-width: 545px){
+  .form-card-checkout {
+    width: 100% !important;
+  }
+}

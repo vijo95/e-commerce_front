@@ -1,0 +1,37 @@
+.view{
+  background-color: black !important;
+}
+
+.img-carousel {
+  height: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .img-carousel {
+    height: 375px;
+  }
+}
+
+@media (max-width: 924px) {
+  .img-carousel {
+    height: 350px;
+  }
+}
+
+@media (max-width: 824px) {
+  .img-carousel {
+    height: 325px;
+  }
+}
+
+@media (max-width: 724px) {
+  .img-carousel {
+    height: 300px;
+  }
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  width: 50px !important;
+  height: 50px !important;
+}

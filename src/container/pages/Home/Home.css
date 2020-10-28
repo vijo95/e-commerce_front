@@ -1,0 +1,16 @@
+.all{
+  text-align: center;
+  cursor: pointer;
+  color:#03A9F4;
+  font-weight:bold;
+}
+
+.all-div{
+  margin: auto;
+  transition: 0.3s ease-in-out;
+  width: fit-content;
+}
+
+.all-div:hover{
+  transform: scale(1.1);
+}
